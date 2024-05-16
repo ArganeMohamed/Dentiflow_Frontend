@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>hhhhh</h1>
+    <hr>
+    <h1>بسم الله الرحمن الرحيم</h1>
     <hr>
   </div>
 </template>
