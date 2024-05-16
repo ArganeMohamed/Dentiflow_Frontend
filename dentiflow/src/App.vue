@@ -1,13 +1,3 @@
 <template>
-  <div>
-    <h1>Hello, World</h1>
-    <TestComp />
-  </div>
+  <h1>بسم الله الرحمن الرحيم</h1>
 </template>
-<script>
-import TestComp from "./views/TestComp.vue";
-
-export default {
-  components: { TestComp },
-};
-</script>
