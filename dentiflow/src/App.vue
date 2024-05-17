@@ -1,12 +1,14 @@
 <template>
-  <Test />
+    <div class="main">
+        <Header />
+        <router-view />
+    </div>
 </template>
 
 <script>
-import Test from "./views/TestComp.vue";
-
-export default {
-  components : { Test },
-}
-
+    import Header from "./components/Layouts/Header.vue";
+    import Main from "./components/Main.vue";
+    export default {
+        components : { Header, Main },
+    }
 </script>
