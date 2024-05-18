@@ -13,6 +13,9 @@
                     <li>
                         <router-link to="/patients">Patients</router-link>
                     </li>
+                    <li>
+                        <router-link to="/api">API</router-link>
+                    </li>
                 </ul>
             </div>
         </div>

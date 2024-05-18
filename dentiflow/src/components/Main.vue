@@ -1,5 +1,5 @@
 <template>
-    <div class="main body">
+    <div class="main body home">
         <div class="content">
             <h1>DentiFlow</h1>
             <b>Cabinet Dentaire</b>
@@ -33,5 +33,18 @@
     .content {
         width:500px;
         color: white;
+    }
+    @media screen and (max-width : 950px) {
+        .home { 
+            display: block;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .content {
+            margin: auto;
+        }
+        .main-img {
+            margin-top: 10px;
+        }
     }
 </style>
