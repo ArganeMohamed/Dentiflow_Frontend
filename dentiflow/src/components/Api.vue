@@ -33,13 +33,12 @@ export default {
 <style>
     .api {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
     }
     .post {
         text-align: center;
         border: 2px solid white;
-        margin: 5px;
         color: white;
+        margin: 5px;
     }
 </style>
