@@ -20,6 +20,9 @@
       <li>
         <a href="#" class="text-white hover:text-gray-300">Contact</a>
       </li>
+      <li>
+        <router-link to="/api" class="text-white hover:text-gray-300">Api</router-link>
+      </li>
     </ul>
 
     <!-- Profile and Notification Icons -->

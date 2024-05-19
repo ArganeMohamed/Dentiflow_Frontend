@@ -4,14 +4,16 @@ import LoginView from "@/views/LoginView.vue";
 import AssistantView from "@/views/AssistantView.vue";
 import DirectorView from "@/views/DirectorView.vue";
 import MedecinView from "@/views/MedecinView.vue"; // Corrected the import
+import Api from "../views/Api.vue";
+import Login from "../views/Login.vue";
 
 const routes = [
-  {
-    path: "/",
-    name: "App",
-    component: App,
-    /* redirect: "/login", // Redirects root path to /login */
-  },
+  // {
+  //   path: "/",
+  //   name: "App",
+  //   component: App,
+  //   /* redirect: "/login", // Redirects root path to /login */
+  // },
   {
     path: "/login",
     name: "Login",
@@ -31,6 +33,16 @@ const routes = [
     path: "/medecin",
     name: "Medecin",
     component: MedecinView,
+  },
+  {
+    path: "/api",
+    name: "Api",
+    component: Api,
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login,
   },
 ];
 

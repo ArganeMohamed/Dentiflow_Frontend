@@ -11,6 +11,7 @@ use App\Http\Controllers\SalleController;
 use App\Http\Controllers\TraitementController;
 use App\Http\Controllers\UserDfController;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AuthController;
 
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
@@ -77,3 +78,5 @@ Route::get('user_dfs',[UserDfController::class, 'index']);
 
 //admins
 Route::get('admins',[AdminController::class, 'index']);
+
+Route::post('auth', [AuthController::class, 'login']);
